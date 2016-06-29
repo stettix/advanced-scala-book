@@ -9,6 +9,7 @@ val buildSettings = Seq(
 val dependencySettings = Seq(
   libraryDependencies ++= {
     Seq(
+      "org.typelevel"       %% "cats" % "0.6.0",
       "org.scalatest"       %% "scalatest"    % "3.0.0-RC3" % Test
     )
   }
